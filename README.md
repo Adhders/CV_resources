@@ -3,7 +3,7 @@
 
   A curated list of resources dedicated to Face Recognition & Detection, OCR, Objection Detection, Gan, 3D, Motion Track & Pose Estimation, ReID, NAS, Recommentation, Model Scaling. Any suggestions and pull requests are welcome.
 
-## Papers & Code
+
 Table of Contents
 =================
  * [ReID](#reid)
@@ -43,7 +43,7 @@ Table of Contents
 - [2019-CVPR] MnasNet: Platform-Aware Neural Architecture Search for Mobile [`paper`](https://arxiv.org/pdf/1807.11626.pdf) [`code`](https://github.com/tensorflow/tpu/tree/master/models/official/mnasnet)
 - [2019-CVPR] Searching for A Robust Neural Architecture in Four GPU Hours [`paper`](http://https://github.com/D-X-Y/GDAS/blob/master/data/GDAS.pdf) [`code`](https://github.com/D-X-Y/GDAS)
 
-###Recommendation
+### Recommendation
 - Generative Adversarial User Model for Reinforcement Learning Based Recommendation System [`paper`](https://arxiv.org/pdf/1812.10613.pdf)
 
 ### Video Processing
@@ -110,8 +110,9 @@ Table of Contents
 
 ### Text Detection & Recognition
 - [2019-arXiv] FACLSTM: ConvLSTM with Focused Attention for Scene Text Recognition [`paper`](https://arxiv.org/abs/1904.09405)
+- [2019-CVPR] PMTD: Pyramid Mask Text Detector [`paper`](https://arxiv.org/abs/1903.11800) [`code`](https://github.com/STVIR/PMTD)
 - [2019-CVPR] Scene Text Detection with Supervised Pyramid Context Network [`paper`](https://arxiv.org/abs/1811.08605)
-- [2019-CVPR] Shape Robust Text Detection with Progressive Scale Expansion Network [`paper`](https://arxiv.org/abs/1903.12473)
+- [2019-CVPR] PSENET: Shape Robust Text Detection with Progressive Scale Expansion Network [`paper`](https://arxiv.org/abs/1903.12473)
 - [2019-arXiv] MORAN: A Multi-Object Rectified Attention Network for Scene Text Recognition [`paper`](https://arxiv.org/abs/1901.03003) [`code`](https://github.com/Canjie-Luo/MORAN_v2)
 - [2019-CVPR] Look More Than Once: An Accurate Detector for Text of Arbitrary Shapes [`paper`](https://arxiv.org/abs/1904.06535)
 - [2019-arXiv] TextField: Learning A Deep Direction Field for Irregular Scene Text Detection [`paper`](https://arxiv.org/abs/1812.01393) [`code`](https://github.com/YukangWang/TextField)
