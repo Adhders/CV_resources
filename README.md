@@ -4,7 +4,20 @@
   A curated list of resources dedicated to Face Recognition & Detection, OCR, Objection Detection, Gan, 3D, Motion Track & Pose Estimation, ReID, NAS, Recommentation, Model Scaling. Any suggestions and pull requests are welcome.
 
 ## Papers & Code
-@[TOC]
+Table of Contents
+=================
+ * [ReID](#reid)
+ * [Gan](#gan)
+ * [NAS](#nas)
+ * [Video Processing](#video-processing)
+ * [3D &amp; Depth Estimation](#3d--depth-estimation)
+ * [Face Recognition &amp; Detection](#face-recognition--detection)
+ * [Data Augmentation &amp; Super-Resolution(ISR)](#data-augmentation--super-resolutionisr)
+ * [Objection Detection &amp; Semantic](#objection-detection--semantic)
+ * [Speed &amp; Compress](#speed--compress)
+ * [Motion Track &amp; Pose Estimation](#motion-track--pose-estimation)
+ * [Text Detection &amp; Recognition](#text-detection--recognition)
+
 
 ### ReID
 - [2019-CVPR] MAR: Unsupervised Person Re-identification by Soft Multilabel Learning [`paper`](https://arxiv.org/abs/1903.06325) [`code`](https://github.com/KovenYu/MAR)
