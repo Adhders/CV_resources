@@ -4,7 +4,8 @@
   A curated list of resources dedicated to Face Recognition & Detection, OCR, Objection Detection, Gan, 3D, Motion Track & Pose Estimation, ReID, NAS, Recommentation, Model Scaling. Any suggestions and pull requests are welcome.
 
 
-   * [Table of Contents](#table-of-contents)
+ Table of Contents
+=================
          * [ReID](#reid)
          * [Gan](#gan)
          * [NAS](#nas)
