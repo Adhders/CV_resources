@@ -4,10 +4,51 @@
   A curated list of resources dedicated to Face Recognition & Detection, OCR, Objection Detection, Gan, 3D, Motion Track & Pose Estimation, ReID, NAS, Recommentation, Model Scaling. Any suggestions and pull requests are welcome.
 
 
-Table of Contents
-=================
+   * [Table of Contents](#table-of-contents)
+         * [ReID](#reid)
+         * [Gan](#gan)
+         * [NAS](#nas)
+         * [Classification](#classification)
+         * [Recommendation &amp; CTR](#recommendation--ctr)
+            * [CTR](#ctr)
+            * [Recommendation](#recommendation)
+         * [Video Processing](#video-processing)
+            * [Classification](#classification-1)
+            * [Augumentation](#augumentation)
+         * [SLAM](#slam)
+         * [Building and Training](#building-and-training)
+            * [Optimizing](#optimizing)
+            * [Constructure](#constructure)
+            * [Strategy](#strategy)
+            * [Evaluation](#evaluation)
+         * [Body Related](#body-related)
+            * [Face Detection](#face-detection)
+            * [Face Alignment](#face-alignment)
+            * [Head Detection](#head-detection)
+            * [Liveness Detection](#liveness-detection)
+            * [3D Face](#3d-face)
+         * [Data Processing](#data-processing)
+            * [Super resolution](#super-resolution)
+            * [Synthesis](#synthesis)
+            * [Image Translation](#image-translation)
+            * [Date augmentaiton](#date-augmentaiton)
+         * [Objection Detection &amp; Semantic](#objection-detection--semantic)
+            * [Objection Detection](#objection-detection)
+            * [Salient Object Detecion](#salient-object-detecion)
+            * [Segmentation](#segmentation)
+         * [Model Compress and Accelerate](#model-compress-and-accelerate)
+            * [Pruning](#pruning)
+            * [Accelerating](#accelerating)
+         * [Motion &amp; Pose](#motion--pose)
+            * [Pose Estimation](#pose-estimation)
+            * [Pose Transfer](#pose-transfer)
+            * [Motion Track](#motion-track)
+            * [Action Recognition](#action-recognition)
+            * [Keypoint Detection](#keypoint-detection)
+         * [Text Detection &amp; Recognition](#text-detection--recognition)
+            * [Detection](#detection)
+            * [Recogination](#recogination)
  
-
 
 ### ReID
 - [2019-CVPR] MAR: Unsupervised Person Re-identification by Soft Multilabel Learning [`paper`](https://arxiv.org/abs/1903.06325) [`code`](https://github.com/KovenYu/MAR)
@@ -116,7 +157,7 @@ Xception,InceptionV3,InceptionV4,InceptionResNetV2,PolyNet,NASNet-Mobile,PNASNet
 ### Body Related 
 - [`collection`] A curated list of related resources for hand pose estimation** [`code`](https://github.com/xinghaochen/awesome-hand-pose-estimation) 
 - [`collection`] Face Benchmark and Dataset [`code`](https://github.com/becauseofAI/HelloFace)
-- [`Tool`]  A face recognition solution on mobile device [`code`](https://github.com/becauseofAI/MobileFace)
+- [`ToolBox`]  A face recognition solution on mobile device [`code`](https://github.com/becauseofAI/MobileFace)
 
 #### Face Detection 
 - [2019-CVPR] Dense 3D Face Decoding over 2500FPS: Joint Texture & Shape Convolutional Mesh Decoders [`paper`](https://arxiv.org/abs/1904.03525?context=cs.CV)
@@ -176,10 +217,7 @@ github.com/NVlabs/SPADE)
 - [2018-CVPR] Pix2pix: Image-to-Image Translation with Conditional Adversarial Networks [`paper`](https://arxiv.org/pdf/1611.07004.pdf) [`code`](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 
 #### Date augmentaiton
-- [2019-CVPR] A Preliminary Study on Data Augmentation of Deep Learning for Image Classification [`paper
-- 
-- 
-- `](https://arxiv.org/abs/1906.11887)
+- [2019-CVPR] A Preliminary Study on Data Augmentation of Deep Learning for Image Classification [`paper`](https://arxiv.org/abs/1906.11887)
 - [2019-CVPR] Further advantages of data augmentation on convolutional neural networks [`paper`](https://arxiv.org/abs/1906.11052)
 - [2019-CVPR] Learning Data Augmentation Strategies for Object Detection [`paper`](https://arxiv.org/abs/1906.11172)
 - [2019-CVPR] PSIS: Data Augmentation for Object Detection via Progressive and Selective Instance-Switching [`paper`](https://arxiv.org/abs/1906.00358) [`code`](https://github.com/Hwang64/PSIS)
