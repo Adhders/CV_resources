@@ -1,57 +1,52 @@
-
+@[TOC]
 # Awesome of Computer Vision Resources
 
   A curated list of resources dedicated to Face Recognition & Detection, OCR, Objection Detection, Gan, 3D, Motion Track & Pose Estimation, ReID, NAS, Recommentation, Model Scaling. Any suggestions and pull requests are welcome.
 
+ * [ReID](#reid)
+ * [Gan](#gan)
+ * [NAS](#nas)
+ * [SLAM](#slam)
+ * [Classification](#classification)
+ * [Recommendation &amp; CTR](#recommendation--ctr)
+    * [CTR](#ctr)
+    * [Recommendation](#recommendation)
+ * [Video Processing](#video-processing)
+    * [Classification](#classification-1)
+    * [Augumentation](#augumentation)
+ * [Building and Training](#building-and-training)
+    * [Optimizing](#optimizing)
+    * [Constructure](#constructure)
+    * [Strategy](#strategy)
+    * [Evaluation](#evaluation)
+ * [Body Related](#body-related)
+    * [Face Detection](#face-detection)
+    * [Face Alignment](#face-alignment)
+    * [Head Detection](#head-detection)
+    * [Liveness Detection](#liveness-detection)
+    * [3D Face](#3d-face)
+ * [Data Processing](#data-processing)
+    * [Super resolution](#super-resolution)
+    * [Synthesis](#synthesis)
+    * [Image Translation](#image-translation)
+    * [Date augmentaiton](#date-augmentaiton)
+ * [Objection Detection &amp; Semantic](#objection-detection--semantic)
+    * [Objection Detection](#objection-detection)
+    * [Salient Object Detecion](#salient-object-detecion)
+    * [Segmentation](#segmentation)
+ * [Model Compress and Accelerate](#model-compress-and-accelerate)
+    * [Pruning](#pruning)
+    * [Accelerating](#accelerating)
+ * [Motion &amp; Pose](#motion--pose)
+    * [Pose Estimation](#pose-estimation)
+    * [Pose Transfer](#pose-transfer)
+    * [Motion Track](#motion-track)
+    * [Action Recognition](#action-recognition)
+    * [Keypoint Detection](#keypoint-detection)
+ * [Text Detection &amp; Recognition](#text-detection--recognition)
+    * [Detection](#detection)
+    * [Recogination](#recogination)
 
-Table of Contents
-=================
-
-   * [Awesome of Computer Vision Resources](#awesome-of-computer-vision-resources)
-   * [Table of Contents](#table-of-contents)
-         * [ReID](#reid)
-         * [Gan](#gan)
-         * [NAS](#nas)
-         * [Classification](#classification)
-         * [Recommendation &amp; CTR](#recommendation--ctr)
-            * [CTR](#ctr)
-            * [Recommendation](#recommendation)
-         * [Video Processing](#video-processing)
-            * [Classification](#classification-1)
-            * [Augumentation](#augumentation)
-         * [SLAM](#slam)
-         * [Building and Training](#building-and-training)
-            * [Optimizing](#optimizing)
-            * [Constructure](#constructure)
-            * [Strategy](#strategy)
-            * [Evaluation](#evaluation)
-         * [Body Related](#body-related)
-            * [Face Detection](#face-detection)
-            * [Face Alignment](#face-alignment)
-            * [Head Detection](#head-detection)
-            * [Liveness Detection](#liveness-detection)
-            * [3D Face](#3d-face)
-         * [Data Processing](#data-processing)
-            * [Super resolution](#super-resolution)
-            * [Synthesis](#synthesis)
-            * [Image Translation](#image-translation)
-            * [Date augmentaiton](#date-augmentaiton)
-         * [Objection Detection &amp; Semantic](#objection-detection--semantic)
-            * [Objection Detection](#objection-detection)
-            * [Salient Object Detecion](#salient-object-detecion)
-            * [Segmentation](#segmentation)
-         * [Model Compress and Accelerate](#model-compress-and-accelerate)
-            * [Pruning](#pruning)
-            * [Accelerating](#accelerating)
-         * [Motion &amp; Pose](#motion--pose)
-            * [Pose Estimation](#pose-estimation)
-            * [Pose Transfer](#pose-transfer)
-            * [Motion Track](#motion-track)
-            * [Action Recognition](#action-recognition)
-            * [Keypoint Detection](#keypoint-detection)
-         * [Text Detection &amp; Recognition](#text-detection--recognition)
-            * [Detection](#detection)
-            * [Recogination](#recogination)
  
 
 ### ReID
@@ -80,6 +75,21 @@ Table of Contents
 - [2019-arXiv] Single-Path Mobile AutoML: Efficient ConvNet Design and NAS Hyperparameter Optimization [`paper`](https://arxiv.org/abs/1907.00959) [`code`](https://github.com/dstamoulis/single-path-nas)
 - [2019-CVPR] Dynamic Distribution Pruning for Efficient Network Architecture Search [`paper`](https://arxiv.org/abs/1905.13543) [`code`](https://github.com/tanglang96/DDPNAS)
 
+
+### SLAM
+- [2019-CVPR] AdaptForStereo: Learning to Adapt for Stereo [`paper`](https://arxiv.org/abs/1904.02957) [`code`](https://github.com/CVLAB-Unibo/Learning2AdaptForStereo)
+- [2019-arXiv] DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction [`paper`](https://arxiv.org/abs/1905.10711) [`code`](https://github.com/laughtervv/DISN)
+- [2019-CVPR] Detailed Human Shape Estimation from a Single Image by Hierarchical Mesh Deformation [`paper`](https://arxiv.org/abs/1904.10506) [`code`](https://github.com/zhuhao-nju/hmd)
+- [2019-CVPR] Defusr: Learning Non-volumetric Depth Fusion using Successive Reprojections [`code`](https://github.com/simon-donne/defusr)
+- [2019-CVPR] GA-Net: Guided Aggregation Net for End-to-end Stereo Matching [`paper`](https://arxiv.org/abs/1904.06587) [`code`](https://github.com/feihuzhang/GANet)
+- [2019-CVPR] Neural Rerendering in the Wild [`paper`](https://arxiv.org/abs/1904.04290) [`code`](https://github.com/google/neural_rerendering_in_the_wild)
+- [2019-CVPR] PyRobot: An Open-source Robotics Framework for Research and Benchmarking [`paper`](https://arxiv.org/abs/1906.08236) [`code`](https://github.com/facebookresearch/pyrobot)
+- [2019-CVPR] Pose from Shape: Deep Pose Estimation for Arbitrary 3D Objects [`paper`](https://arxiv.org/abs/1906.05105)
+- [2019-CVPR] Robust Point Cloud Based Reconstruction of Large-Scale Outdoor Scenes(3D reconstruction) [`paper`](https://arxiv.org/abs/1905.09634) [`code`](https://github.com/ziquan111/RobustPCLReconstruction)
+- [2019-CVPR] SGANVO: Unsupervised Deep Visual Odometry and Depth Estimation with Stacked Generative Adversarial Networks [`paper`](https://arxiv.org/abs/1906.08889)
+- [2019-CVPR] Taking a Deeper Look at the Inverse Compositional Algorithm(image alignment) [`paper`](https://arxiv.org/pdf/1812.06861.pdf) [`code`](https://github.com/lvzhaoyang/DeeperInverseCompositionalAlgorithm) 
+
+
 ### Classification
 - [`ToolBox`] Sandbox for training convolutional networks for computer vision (VGG,ResNet,PreResNet,ResNeXt,SENet,ResAttNet,SKNet,PyramidNet,
 - DenseNet,BagNet,MSDNet,FishNet,SqueezeNet,SqueezeResNet,SqueezeNext,ShuffleNet,ShuffleNetV2,MENet,MobileNet,FD-MobileNet,MobileNetV2,MobileNetV3,
@@ -87,6 +97,7 @@ Xception,InceptionV3,InceptionV4,InceptionResNetV2,PolyNet,NASNet-Mobile,PNASNet
 - [2019-CVPR] RepMet: Representative-based metric learning for classification and one-shot object detection [`paper`](https://arxiv.org/abs/1806.04728)
 - [2018-CVPR] SENet: Squeeze-and-Excitation Networks(champion for imageNet) [`paper`](https://arxiv.org/abs/1709.01507) [`code`](https://github.com/moskomule/senet.pytorch) [`code-caffe`](https://github.com/hujie-frank/SENet)
 - [2018-CVPR] FishNet: A Versatile Backbone for Image, Region, and Pixel Level Prediction [`paper`](http://papers.nips.cc/paper/7356-fishnet-a-versatile-backbone-for-image-region-and-pixel-level-prediction.pdf) [`code`](https://github.com/kevin-ssy/FishNet)
+
 
 ### Recommendation & CTR
 - [`ToolBox`] Implementation of Deep Learning based Recommender Algorithms with Tensorflow [`code`](https://github.com/cheungdaven/DeepRec)
@@ -119,23 +130,7 @@ Xception,InceptionV3,InceptionV4,InceptionResNetV2,PolyNet,NASNet-Mobile,PNASNet
 - [2019-CVPR] TecoGAN: Temporally Coherent GANs for Video Super-Resolution [`paper`]( https://arxiv.org/pdf/1811.09393.pdf) [`code`](https://github.com/thunil/TecoGAN)
 - [2018-XXXX] A Deep Learning based project for colorizing and restoring old images and video!(***) [`code`](https://github.com/jantic/DeOldify)
 
-### SLAM
 
-- [2019-CVPR] AdaptForStereo: Learning to Adapt for Stereo [`paper`](https://arxiv.org/abs/1904.02957) [`code`](https://github.com/CVLAB-Unibo/Learning2AdaptForStereo)
-- [2019-arXiv] DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction [`paper`](https://arxiv.org/abs/1905.10711) [`code`](https://github.com/laughtervv/DISN)
-- [2019-CVPR] Detailed Human Shape Estimation from a Single Image by Hierarchical Mesh Deformation [`paper`](https://arxiv.org/abs/1904.10506) [`code`](https://github.com/zhuhao-nju/hmd)
-- [2019-CVPR] Defusr: Learning Non-volumetric Depth Fusion using Successive Reprojections [`code`](https://github.com/simon-donne/defusr)
-- [2019-IEEE] FANTrack: 3D Multi-Object Tracking with Feature Association Network [`paper`](https://arxiv.org/abs/1905.02843) [`code`](https://git.uwaterloo.ca/wise-lab/fantrack)
-- [2019-CVPR] GA-Net: Guided Aggregation Net for End-to-end Stereo Matching [`paper`](https://arxiv.org/abs/1904.06587) [`code`](https://github.com/feihuzhang/GANet)
-- [2019-CVPR] Joint Monocular 3D Vehicle Detection and Tracking(***) [`paper`](https://arxiv.org/abs/1811.10742) [`code`](https://github.com/ucbdrive/3d-vehicle-tracking)
-- [2019-CVPR] Leveraging Shape Completion for 3D Siamese Tracking [`paper`](https://arxiv.org/pdf/1903.01784.pdf) [`code`](https://github.com/SilvioGiancola/ShapeCompletion3DTracking)
-- [2019-CVPR] Neural Rerendering in the Wild [`paper`](https://arxiv.org/abs/1904.04290) [`code`](https://github.com/google/neural_rerendering_in_the_wild)
-- [2019-CVPR] PyRobot: An Open-source Robotics Framework for Research and Benchmarking [`paper`](https://arxiv.org/abs/1906.08236) [`code`](https://github.com/facebookresearch/pyrobot)
-- [2019-CVPR] Pixel-Accurate Depth Evaluation in Realistic Driving Scenarios [`paper`](https://arxiv.org/abs/1906.08953)
-- [2019-CVPR] Pose from Shape: Deep Pose Estimation for Arbitrary 3D Objects [`paper`](https://arxiv.org/abs/1906.05105)
-- [2019-CVPR] Robust Point Cloud Based Reconstruction of Large-Scale Outdoor Scenes(3D reconstruction) [`paper`](https://arxiv.org/abs/1905.09634) [`code`](https://github.com/ziquan111/RobustPCLReconstruction)
-- [2019-CVPR] SGANVO: Unsupervised Deep Visual Odometry and Depth Estimation with Stacked Generative Adversarial Networks [`paper`](https://arxiv.org/abs/1906.08889)
-- [2019-CVPR] Taking a Deeper Look at the Inverse Compositional Algorithm(image alignment) [`paper`](https://arxiv.org/pdf/1812.06861.pdf) [`code`](https://github.com/lvzhaoyang/DeeperInverseCompositionalAlgorithm) 
 
 ### Building and Training
 - [`ToolBox`] Pretrained EfficientNet, MobileNetV3 V2 and V1, MNASNet A1 and B1, FBNet, ChamNet, Single-Path NAS [`code`](https://github.com/rwightman/gen-efficientnet-pytorch)
@@ -331,6 +326,9 @@ github.com/NVlabs/SPADE)
 
 #### Motion Track
 - [2019-CVPR] ATOM: Accurate Tracking by Overlap Maximization(***SOTA) [`paper`](https://arxiv.org/pdf/1811.07628.pdf) [`code`](https://github.com/visionml/pytracking)
+- [2019-IEEE] FANTrack: 3D Multi-Object Tracking with Feature Association Network [`paper`](https://arxiv.org/abs/1905.02843) [`code`](https://git.uwaterloo.ca/wise-lab/fantrack)
+- [2019-CVPR] Joint Monocular 3D Vehicle Detection and Tracking(***) [`paper`](https://arxiv.org/abs/1811.10742) [`code`](https://github.com/ucbdrive/3d-vehicle-tracking)
+- [2019-CVPR] Leveraging Shape Completion for 3D Siamese Tracking [`paper`](https://arxiv.org/pdf/1903.01784.pdf) [`code`](https://github.com/SilvioGiancola/ShapeCompletion3DTracking)
 - [2019-CVPR Oral] Graph Convolutional Tracking(SOTA) [`code`](http://nlpr-web.ia.ac.cn/mmc/homepage/jygao/gct_cvpr2019.html#)
 - [2019-arXiv] Instance-Aware Representation Learning and Association for Online Multi-Person Tracking [`paper`](https://arxiv.org/abs/1905.12409)
 - [2019-Github] multi-people tracking (centerNet based person detector + deep sort algorithm with pytorch)(SOTA) [`code`](https://github.com/kimyoon-young/centerNet-deep-sort)
@@ -345,6 +343,7 @@ github.com/NVlabs/SPADE)
 - [2019-arXiv] VTN:Lightweight Network Architecture for Real-Time Action Recognition[`paper`](https://arxiv.org/abs/1905.08711) [`code`](https://github.com/opencv/openvino_training_extensions/tree/develop/pytorch_toolkit/action_recognition)
 #### Keypoint Detection
 - [2018-CVPR] OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation(***) [`code`](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+
 
 
 
