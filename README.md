@@ -50,19 +50,21 @@
  
 
 ### ReID
-- [2019-CVPR] MAR: Unsupervised Person Re-identification by Soft Multilabel Learning [`paper`](https://arxiv.org/abs/1903.06325) [`code`](https://github.com/KovenYu/MAR)
+
 - [2019-CVPR] Bags of Tricks and A Strong Baseline for Deep Person Re-identification(Baseline) [`paper`](https://arxiv.org/abs/1903.07071) [`code`](https://github.com/michuanhaohao/reid-strong-baseline) [`paper`](https://arxiv.org/abs/1901.06140) 
 - [2019-CVPR] Backbone Can Not be Trained at Once: Rolling Back to Pre-trained Network for Person Re-IdentificationRolling Back to Pre-trained Network for Person Re-Identification [`paper`](https://arxiv.org/abs/1901.06140) [`code`](https://github.com/youngminPIL/rollback)
-- [2019-CVPR] Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification [`paper`](https://arxiv.org/abs/1904.01990) [`code`](https://github.com/zhunzhong07/ECN)
-- [2019-CVPR] An Adaptive Training-less System for Anomaly Detection in Crowd Scenes [`paper`](https://arxiv.org/abs/1906.00705)
 - [2019-CVPR] DBC: Dispersion based Clustering for Unsupervised Person Re-identification [`paper`](https://arxiv.org/abs/1906.01308) [`code`](https://github.com/gddingcs/Dispersion-based-Clustering)
+- [2019-CVPR] EANet: Enhancing Alignment for Cross-Domain Person Re-identification(***SOTA) [`paper`](https://arxiv.org/abs/1812.11369) [`code`](https://github.com/huanghoujing/EANet)
+- [2019-CVPR] High-level Semantic Feature Detection: A New Perspective for Pedestrian Detection [`paper`](https://arxiv.org/abs/1904.02948) [https://github.com/liuwei16/CSP](https://github.com/liuwei16/CSP)
+- [2019-CVPR] Invariance Matters: Exemplar Memory for Domain Adaptive Person Re-identification [`paper`](https://arxiv.org/abs/1904.01990) [`code`](https://github.com/zhunzhong07/ECN)
+- [2019-CVPR] MAR: Unsupervised Person Re-identification by Soft Multilabel Learning [`paper`](https://arxiv.org/abs/1903.06325) [`code`](https://github.com/KovenYu/MAR)
 - [2019-CVPR] SSA-CNN: Semantic Self-Attention CNN for Pedestrian Detection(SOTA) [`paper`](https://arxiv.org/abs/1902.09080)
-- [2018-CVPR] Attention-Aware Compositional Network for Person Re-identification(with pose Information) [`paper`](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Attention-Aware_Compositional_Network_CVPR_2018_paper.pdf)
+- [2018-BMVC] Deep Association Learning for Unsupervised Video Person Re-identification [`paper`](https://arxiv.org/pdf/1808.07301.pdf) [`code`](https://github.com/yanbeic/Deep-Association-Learning)
 
 ### Gan 
 - [`collection`] Awesome Generative Adversarial Networks with tensorflow**[`code`](https://github.com/kozistr/Awesome-GANs)
 - [`framework`] Implementations of a number of generative models GAN, VAE, Seq2Seq, VAEGAN, GAIA, Spectrogram Inversion in Tensorflow** [`code`](https://github.com/timsainb/tensorflow2-generative-models)
-- [2019-CVPR] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [`paper`](https://arxiv.org/abs/1810.04805) [https://github.com/google-research/bert](https://github.com/google-research/bert) [`code-pytorch`](https://github.com/huggingface/pytorch-pretrained-BERT)
+- [2019-CVPR] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [`paper`](https://arxiv.org/abs/1810.04805) [`code`](https://github.com/google-research/bert) [`code-pytorch`](https://github.com/huggingface/pytorch-pretrained-BERT)
 - [2019-CVPR] StyleGan: Generator Inversion for Image Enhancement and Animation [`paper`](https://arxiv.org/abs/1906.11880)[`code`](https://github.com/avivga/style-image-prior)
 - [2018-ICLR] Progressive Growing of GANs for Improved Quality, Stability, and Variation [`paper`](https://research.nvidia.com/sites/default/files/pubs/2017-10_Progressive-Growing-of/karras2018iclr-paper.pdf) [`code`](https://github.com/tkarras/progressive_growing_of_gans#progressive-growing-of-gans-for-improved-quality-stability-and-variation-official-tensorflow-implementation-of-the-iclr-2018-paper)) 
 
@@ -77,14 +79,15 @@
 
 
 ### SLAM
+- [`ToolBox`] OpenVSLAM: a Versatile Visual SLAM Framework [`code`](https://github.com/xdspacelab/openvslam)
 - [2019-CVPR] AdaptForStereo: Learning to Adapt for Stereo [`paper`](https://arxiv.org/abs/1904.02957) [`code`](https://github.com/CVLAB-Unibo/Learning2AdaptForStereo)
 - [2019-arXiv] DISN: Deep Implicit Surface Network for High-quality Single-view 3D Reconstruction [`paper`](https://arxiv.org/abs/1905.10711) [`code`](https://github.com/laughtervv/DISN)
 - [2019-CVPR] Detailed Human Shape Estimation from a Single Image by Hierarchical Mesh Deformation [`paper`](https://arxiv.org/abs/1904.10506) [`code`](https://github.com/zhuhao-nju/hmd)
 - [2019-CVPR] Defusr: Learning Non-volumetric Depth Fusion using Successive Reprojections [`code`](https://github.com/simon-donne/defusr)
 - [2019-CVPR] GA-Net: Guided Aggregation Net for End-to-end Stereo Matching [`paper`](https://arxiv.org/abs/1904.06587) [`code`](https://github.com/feihuzhang/GANet)
-- [2019-CVPR] Neural Rerendering in the Wild [`paper`](https://arxiv.org/abs/1904.04290) [`code`](https://github.com/google/neural_rerendering_in_the_wild)
+- [2019-CVPR] MegaDepth: Learning Single-View Depth Prediction from Internet Photos [`paper`](https://arxiv.org/abs/1804.00607)
+- [2019-CVPR] Neural Rerendering in the Wild [`paper`](https://arxiv.org/abs/1904.04290) [`code`](https://github.com/google/neural_rerendering_in_the_wild) [`code`](https://github.com/lixx2938/MegaDepth)
 - [2019-CVPR] PyRobot: An Open-source Robotics Framework for Research and Benchmarking [`paper`](https://arxiv.org/abs/1906.08236) [`code`](https://github.com/facebookresearch/pyrobot)
-- [2019-CVPR] Pose from Shape: Deep Pose Estimation for Arbitrary 3D Objects [`paper`](https://arxiv.org/abs/1906.05105)
 - [2019-CVPR] Robust Point Cloud Based Reconstruction of Large-Scale Outdoor Scenes(3D reconstruction) [`paper`](https://arxiv.org/abs/1905.09634) [`code`](https://github.com/ziquan111/RobustPCLReconstruction)
 - [2019-CVPR] SGANVO: Unsupervised Deep Visual Odometry and Depth Estimation with Stacked Generative Adversarial Networks [`paper`](https://arxiv.org/abs/1906.08889)
 - [2019-CVPR] Taking a Deeper Look at the Inverse Compositional Algorithm(image alignment) [`paper`](https://arxiv.org/pdf/1812.06861.pdf) [`code`](https://github.com/lvzhaoyang/DeeperInverseCompositionalAlgorithm) 
@@ -94,6 +97,7 @@
 - [`ToolBox`] Sandbox for training convolutional networks for computer vision (VGG,ResNet,PreResNet,ResNeXt,SENet,ResAttNet,SKNet,PyramidNet,
 - DenseNet,BagNet,MSDNet,FishNet,SqueezeNet,SqueezeResNet,SqueezeNext,ShuffleNet,ShuffleNetV2,MENet,MobileNet,FD-MobileNet,MobileNetV2,MobileNetV3,
 Xception,InceptionV3,InceptionV4,InceptionResNetV2,PolyNet,NASNet-Mobile,PNASNet-Large,EfficientNet) [`code`](https://github.com/osmr/imgclsmob)
+- [`ToolBox`] Classification models trained on ImageNet[`code`](https://github.com/qubvel/classification_models) [`code-keras`](https://github.com/keras-team/keras-applications)
 - [2019-CVPR] RepMet: Representative-based metric learning for classification and one-shot object detection [`paper`](https://arxiv.org/abs/1806.04728)
 - [2018-CVPR] SENet: Squeeze-and-Excitation Networks(champion for imageNet) [`paper`](https://arxiv.org/abs/1709.01507) [`code`](https://github.com/moskomule/senet.pytorch) [`code-caffe`](https://github.com/hujie-frank/SENet)
 - [2018-CVPR] FishNet: A Versatile Backbone for Image, Region, and Pixel Level Prediction [`paper`](http://papers.nips.cc/paper/7356-fishnet-a-versatile-backbone-for-image-region-and-pixel-level-prediction.pdf) [`code`](https://github.com/kevin-ssy/FishNet)
@@ -106,9 +110,9 @@ Xception,InceptionV3,InceptionV4,InceptionResNetV2,PolyNet,NASNet-Mobile,PNASNet
 - [`ToolBox`] Modular and Extendible package of deep-learning based CTR models [`code`](https://github.com/shenweichen/DeepCTR)
 - [`collection`] Classic papers and resources on recommendation [`papers`](https://github.com/wzhe06/Reco-papers)
 - [`collection`] A collection of resources for Recommender Systems [`papers`](https://github.com/chihming/competitive-recsys)
-- [`collection`] papers,datas,outline for recommendation [`code`](https://github.com/zhaozhiyong19890102/Recommender-System)
+- [`collection`] papers,datas,outline for recommendation [`code`](https://github.com/zhaozhiyong19890102/Recommender-System) [`code`](https://github.com/OnYuKang/Recommendation-systems-paperlist)
 #### CTR
-- [2019-arXiv] Deep Learning Recommendation Model for Personalization and Recommendation Systems(***CTR) [`paper`](https://arxiv.org/abs/1906.00091)[`code`](https://github.com/facebookresearch/dlrm)
+- [2019-arXiv] Deep Learning Recommendation Model for Personalization and Recommendation Systems(***CTR) [`paper`](https://arxiv.org/abs/1906.00091) [`code`](https://github.com/facebookresearch/dlrm)
 #### Recommendation
 - [2019-arXiv] Generative Adversarial User Model for Reinforcement Learning Based Recommendation System [`paper`](https://arxiv.org/pdf/1812.10613.pdf)
 - [2019-arXiv] Recent Advances in Diversified Recommendation [`paper`](https://arxiv.org/pdf/1905.06589.pdf)
@@ -117,9 +121,9 @@ Xception,InceptionV3,InceptionV4,InceptionResNetV2,PolyNet,NASNet-Mobile,PNASNet
 ### Video Processing
 
 #### Classification
-- [2019-CVPR] Video Classification [`paper`](https://arxiv.org/pdf/1703.10593.pdf) [`code`](https://github.com/HHTseng/video-classification
+- [2019-CVPR] Video Classification [`paper`](https://arxiv.org/pdf/1703.10593.pdf) [`code`](https://github.com/HHTseng/video-classification)
 - [2019-CVPR] FastDVDnet: Towards Real-Time Video denoising Without Explicit Motion Estimation(denoising) [`paper`](https://arxiv.org/abs/1907.01361) [`code`](https://github.com/m-tassano/fastdvdnet)
-- [2019-CVPR] Hallucinating Optical Flow Features for Video Classification [`paper`](https://arxiv.org/abs/1905.11799v1 ") [`code`](https://github.com/YongyiTang92/MoNet-Features)
+- [2019-CVPR] Hallucinating Optical Flow Features for Video Classification [`paper`](https://arxiv.org/abs/1905.11799) [`code`](https://github.com/YongyiTang92/MoNet-Features)
 
 #### Augumentation
 - [2019-CVPR] DAVANet: Stereo Deblurring with View Aggregation(debluring) [`paper`](https://arxiv.org/pdf/1904.05065.pd) [`code`](https://github.com/sczhou/DAVANet)
@@ -147,7 +151,9 @@ Xception,InceptionV3,InceptionV4,InceptionResNetV2,PolyNet,NASNet-Mobile,PNASNet
 - [`Toolbox`] A Python Package to Tackle the Curse of Imbalanced Datasets in Machine Learning [`code`](https://github.com/scikit-learn-contrib/imbalanced-learn)
 - [2019-CVPR]mixup: Bag of Freebies for Training Object Detection Neural Networks [`paper`](https://arxiv.org/abs/1902.04103) [`code`](https://github.com/dmlc/gluon-cv)
 - [2019-CVPR] Improving Transferability of Adversarial Examples with Input Diversity [`paper`](https://arxiv.org/abs/1803.06978) [`code`](https://github.com/cihangxie/DI-2-FGSM)
+- [2019-CVPR] RePr: Improved Training of Convolutional Filters [`paper`](https://arxiv.org/abs/1811.07275)
 - [2018-CVPR] Fd-mobilenet: Improved mobilenet with a fast downsampling strategy [`paper`](https://arxiv.org/abs/1802.03750?context=cs.CV) [`code`](https://github.com/osmr/imgclsmob)
+
 
 #### Evaluation
 - [2019-CVPR] TedEval: A Fair Evaluation Metric for Scene Text Detectors(***) [`paper`](https://arxiv.org/abs/1907.01227) [`code`](https://github.com/clovaai/TedEval) 
@@ -161,14 +167,18 @@ Xception,InceptionV3,InceptionV4,InceptionResNetV2,PolyNet,NASNet-Mobile,PNASNet
 #### Face Detection 
 - [2019-CVPR] Dense 3D Face Decoding over 2500FPS: Joint Texture & Shape Convolutional Mesh Decoders [`paper`](https://arxiv.org/abs/1904.03525?context=cs.CV)
 - [2019-CVPR] DSFD: Dual Shot Face Detector [`paper`](https://arxiv.org/abs/1810.10220) [`code`](https://github.com/TencentYoutuResearch/FaceDetection-DSFD)
+- [2019-CVPR] RetinaFace: Single-stage Dense Face Localisation in the Wild(***SOTA) [`paper`](https://arxiv.org/pdf/1905.00641.pdf) [`code`](https://github.com/deepinsight/insightface/tree/master/RetinaFace)
+- [2019-CVPR] PyramidBox++: High Performance Detector for Finding Tiny Face(***SOTA) [`paper`]( https://arxiv.org/abs/1904.00386) [`code`](https://github.com/EricZgw/PyramidBox)
 - [2019-CVPR] SRN: Improved Selective Refinement Network for Face Detection(SOTA) [`paepr`](https://arxiv.org/abs/1901.06651) [`code`](https://github.com/ChiCheng123/SRN)
 
 #### Face Alignment
 - [2018-arXiv] Face Alignment: How far are we from solving the 2D & 3D Face Alignment problem [`paper`](https://arxiv.org/pdf/1703.07332.pdf) [`code`](https://github.com/1adrianb/face-alignment)
+- [2018-CVPR] Look at Boundary: A Boundary-Aware Face Alignment Algorithm [`paper`](https://wywu.github.io/projects/LAB/LAB.html) [`code`](https://github.com/wywu/LAB)
 - [2018-ECCV] Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network [`code`](https://github.com/YadiraF/PRNet)
 
 #### Head Detection
 - [2018-arXiv] FCHD: Fast and accurate head detection in crowded scenes [`paper`](https://arxiv.org/abs/1809.08766) [`code`](https://github.com/aditya-vora/FCHD-Fully-Convolutional-Head-Detector)
+
 
 #### Liveness Detection
 - [2019-CVPR] A Non-Intrusive Method of Face Liveness Detection Using Specular Reflection and Local Binary Patterns(Liveness Detection) [`paper`](https://arxiv.org/abs/1905.06540)
@@ -225,12 +235,13 @@ github.com/NVlabs/SPADE)
  
 ### Objection Detection & Semantic
 - [`ToolBox`] A Simple and Versatile Framework for Object Detection and Instance Recognition [`code`](https://github.com/TuSimple/simpledet)
+- [`ToolBox`] Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch [`code`](https://github.com/facebookresearch/maskrcnn-benchmark)
 - [`ToolBox`] ObjectionDetection by yolov2, tiny yolov3, mobilenet, mobilenetv2, shufflenet(g2), shufflenetv2(1x), squeezenext(1.0-SqNxt-23v5), light xception, xception [`code`](https://github.com/TencentYoutuResearch/ObjectDetection-OneStageDet/tree/master/yolo)
 - [`ToolBox`] MMDetection: Open MMLab Detection Toolbox and Benchmark [`paper`](https://arxiv.org/abs/1906.07155) [`code`](https://github.com/open-mmlab/mmdetection)
 - [`ToolBox`] Semantic Segmentation on PyTorch (include FCN, PSPNet, Deeplabv3, DANet, DenseASPP, BiSeNet, EncNet, DUNet, ICNet, ENet, OCNet, CCNet, PSANet, CGNet, ESPNet, LEDNet) [`code`](https://github.com/Tramac/awesome-semantic-segmentation-pytorch) [`code`](https://github.com/hszhao/semseg) 
 - [`ToolBox`] Segmentation models with pretrained backbones [`code`](https://github.com/qubvel/segmentation_models)
 
-#### Objection Detection 
+#### Objection Detection
 - [2019-CVPR] Activity Driven Weakly Supervised Object Detection [`code`](https://github.com/zhenheny/Activity-Driven-Weakly-Supervised-Object-)
 - [2019-CVPR] CenterNet: Objects as Points [`paper`](https://arxiv.org/abs/1904.07850)(***) [`code`](https://github.com/xingyizhou/CenterNet)
 - [2019-CVPR] Cascade R-CNN：High Quality Object Detection and Instance Segmentation(***SOTA) [`paper`](https://arxiv.org/abs/1906.09756) [`code`](https://github.com/zhaoweicai/Detectron-Cascade-RCNN) [`code-Caffe`](https://github.com/zhaoweicai/cascade-rcnn)
@@ -240,20 +251,19 @@ github.com/NVlabs/SPADE)
 - [2019-CVPR] ExtremeNet: Bottom-up Object Detection by Grouping Extreme and Center Points(***) [`paper`](https://arxiv.org/abs/1901.08043) [`code`](https://github.com/xingyizhou/ExtremeNet)
 - [2019-CVPR] FSAF: Feature Selective Anchor-Free Module for Single-Shot Object Detection(SOTA) [`paper`](https://arxiv.org/abs/1903.00621)
 - [2019-CVPR] FoveaBox: Beyond Anchor-based Object Detector(SOTA) [`paper`](https://arxiv.org/pdf/1904.03797v1.pdf)
-- [2019-CVPR] FCOS: Fully Convolutional One-Stage Object Detection（***） [`paper`](https://arxiv.org/abs/1904.01355) [`paper`](https://github.com/tianzhi0549/FCOS/)
+- [2019-CVPR] FCOS: Fully Convolutional One-Stage Object Detection（***） [`paper`](https://arxiv.org/abs/1904.01355) [`code`](https://github.com/tianzhi0549/FCOS/)
 - [2019-CVPR] Grid R-CNN Plus: Faster and Better [`paper`](https://arxiv.org/abs/1906.05688) [`code`](https://github.com/STVIR/Grid-R-CNN)
 - [2019-CVPR] Hybrid Task Cascade for Instance Segmentation [`paper`](https://arxiv.org/pdf/1901.07518v2.pdf) [`code`](https://github.com/open-mmlab/mmdetection)
-- [2019-CVPR] Locating Objects Without Bounding Boxes [`paper`](https://arxiv.org/pdf/1806.07564.pdf)(***crowd count) [`code`](https://github.com/javiribera/locating-objects-without-bboxes)(https://github.com/xingyizhou/ExtremeNet)
+- [2019-CVPR] Locating Objects Without Bounding Boxes(***crowd count) [`paper`](https://arxiv.org/pdf/1806.07564.pdf) [`code`](https://github.com/javiribera/locating-objects-without-bboxes) 
 - [2019-CVPR] Learning Data Augmentation Strategies for Object Detection [`paper`](https://arxiv.org/pdf/1906.11172v1.pdf) [`code`](https://github.com/tensorflow/tpu/tree/master/models/official/detection)
 - [2019-CVPR] LightTrack: A Generic Framework for Online Top-Down Human Pose Tracking [`paper`](https://arxiv.org/pdf/1905.02822.pdf) [`code`](https://github.com/Guanghan/lighttrack)
-- [2019-CVPR] Locating Objects Without Bounding Boxes [`paper`](https://arxiv.org/pdf/1806.07564.pdf)(***crowd count) [`code`](https://github.com/javiribera/locating-objects-without-bboxes)(https://github.com/xingyizhou/ExtremeNet)
+- [2019-CVPR] PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud(***SOTA) [`paper`](https://arxiv.org/abs/1812.04244)  [`code`](https://github.com/sshaoshuai/PointRCNN) [`code-unofficial`](https://github.com/JenningsL/PointRCNN)
 - [2019-CVPR] TridentNet: Scale-Aware Trident Networks for Object Detection(***SOTA) [`paper`](https://arxiv.org/pdf/1901.01892.pdf) [`code`](https://github.com/TuSimple/simpledet/tree/master/models/tridentnet)
 - [2019-CVPR] NAS-FPN: Learning Scalable Feature Pyramid Architecture for Object Detection [`paper`](https://arxiv.org/abs/1904.07392) [`code`](https://github.com/tensorflow/tpu/tree/master/models/official/detection)
 - [2019-CVPR] Region Proposal by Guided Anchoring [`paper`](https://arxiv.org/abs/1901.03278) [`code`](https://github.com/open-mmlab/mmdetection)
 - [2019-CVPR] SNIPER: Efficient Multi-Scale Training [`paper`](https://arxiv.org/abs/1805.09300) [`code`](https://github.com/MahyarNajibi/SNIPER/)
 - [2019-CVPR] SkyNet: A Champion Model for DAC-SDC on Low Power Object Detection(fast and low power)  [`paper`](https://arxiv.org/abs/1906.10327)
 - [2019-CVPR] ScratchDet: Training Single-Shot Object Detectors from Scratch [`paper`](https://arxiv.org/abs/1810.08425) [`code`](https://github.com/KimSoybean/ScratchDet)
-- [2019-CVPR] Video Instance Segmentation [`paper`](https://arxiv.org/abs/1905.04804) [`code`](https://github.com/youtubevos/MaskTrackRCNN)
 - [2019-CVPR] YOLOv3+: Assisted Excitation of Activations: A Learning Technique to Improve Object Detectors [`paper`](https://arxiv.org/abs/1906.05388) [`code`](https://github.com/ultralytics/yolov3)
 - [2018-ECCV] Acquisition of Localization Confidence for Accurate Object Detection [`paper`](https://arxiv.org/abs/1807.11590) [`code`](https://github.com/vacancy/PreciseRoIPooling)
 
@@ -274,16 +284,18 @@ github.com/NVlabs/SPADE)
 - [2019-CVPR oral] CLAN: Category-level Adversaries for Semantics Consistent [`paper`](https://arxiv.org/abs/1809.09478?context=cs) [`code`](https://github.com/RoyalVane/CLAN)
 - [2019-CVPR] BRS: Interactive Image Segmentation via Backpropagating Refinement Scheme(***) [`paper`](https://vcg.seas.harvard.edu/publications/interactive-image-segmentation-via-backpropagating-refinement-scheme/paper) [`code`](https://github.com/wdjang/BRS-Interactive_segmentation)
 - [2019-CVPR] DFANet：Deep Feature Aggregation for Real-Time Semantic Segmentation(used in camera) [`paper`](https://share.weiyun.com/5NgHbWH) [`code`](https://github.com/j-a-lin/DFANet_PyTorch)
+- [2019-CVPR] DeepCO3: Deep Instance Co-segmentation by Co-peak Search and Co-saliency [`paper`](http://cvlab.citi.sinica.edu.tw/images/paper/cvpr-hsu19.pdf) [`code`](https://github.com/KuangJuiHsu/DeepCO3)
 - [2019-CVPR] Domain Adaptation(reducing the domain shif) [`paper`](http://openaccess.thecvf.com/content_CVPR_2019/papers/Luo_Taking_a_Closer_Look_at_Domain_Shift_Category-Level_Adversaries_for_CVPR_2019_paper.pdf) 
 - [2019-CVPR] ELKPPNet: An Edge-aware Neural Network with Large Kernel Pyramid Pooling for Learning Discriminative Features in Semantic Segmentation [`paper`](https://arxiv.org/abs/1906.11428) [`code`](https://github.com/XianweiZheng104/ELKPPNet)
 - [2019-CVPR oral] GLNet: Collaborative Global-Local Networks for Memory-Efficient Segmentation of Ultra-High Resolution Images[`paper`](https://arxiv.org/abs/1905.06368) [`code`](https://github.com/chenwydj/ultra_high_resolution_segmentation)
 - [2019-CVPR] Instance Segmentation by Jointly Optimizing Spatial Embeddings and Clustering Bandwidth(***SOTA) [`paper`](https://arxiv.org/abs/1906.11109) [`code`](https://github.com/davyneven/SpatialEmbeddings)
-- [2019-ECCV] ICNet: Real-Time Semantic Segmentation on High-Resolution Images [`paper`](https://arxiv.org/abs/1704.08545) [`code`](https://github.com/oandrienko/fast-semantic-segmentation
+- [2019-ECCV] ICNet: Real-Time Semantic Segmentation on High-Resolution Images [`paper`](https://arxiv.org/abs/1704.08545) [`code`](https://github.com/oandrienko/fast-semantic-segmentation)
 - [2019-CVPR] LEDNet: A Lightweight Encoder-Decoder Network for Real-Time Semantic Segmentation(***SOTA) [`paper`](https://arxiv.org/abs/1905.02423) [`code`](https://github.com/xiaoyufenfei/LEDNet)
 - [2019-arXiv] LightNet++: Boosted Light-weighted Networks for Real-time Semantic Segmentation [`paper`](http://arxiv.org/abs/1605.02766) [`code`](https://github.com/ansleliu/LightNetPlusPlus)
 - [2019-CVPR] PTSNet: A Cascaded Network for Video Object Segmentation [`paper`](https://arxiv.org/abs/1907.01203) [`code`](https://github.com/sydney0zq/PTSNet)
 - [2019-CVPR] PPGNet: Learning Point-Pair Graph for Line Segment Detection [`paper`](https://www.aiyoggle.me/publication/ppgnet-cvpr19/ppgnet-cvpr19.pdf) [`code`](https://github.com/svip-lab/PPGNet)
 - [2019-CVPR] Show, Match and Segment: Joint Learning of Semantic Matching and Object Co-segmentation [`paper`](https://arxiv.org/abs/1906.05857) [`code`](https://github.com/YunChunChen/MaCoSNet-pytorch)
+- [2019-CVPR] Video Instance Segmentation [`paper`](https://arxiv.org/abs/1905.04804) [`code`](https://github.com/youtubevos/MaskTrackRCNN)
 - [2018-ECCV] BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation [`paper`](https://arxiv.org/abs/1808.00897v1) [`code`](https://
 
 ### Model Compress and Accelerate
@@ -353,7 +365,7 @@ github.com/NVlabs/SPADE)
 - [2019-CVPR] Arbitrary Shape Scene Text Detection with Adaptive Text Region Representation [`paper`](https://arxiv.org/abs/1905.05980)
 - [2019-CVPR] A Multitask Network for Localization and Recognition of Text in Images(end-to-end) [`paper`](https://arxiv.org/abs/1906.09266)
 - [2019-CVPR] AFDM: Handwriting Recognition in Low-resource Scripts using Adversarial Learning(data augmentation) [`paper`](https://arxiv.org/abs/1811.01396) [`code`](https://github.com/AyanKumarBhunia/Handwriting_Recogition_using_Adversarial_Learning)
-- [2019-CVPR] CRAFT: Character Region Awareness for Text Detection [`paper`](https://arxiv.org/abs/1904.01941) [`code`](https://github.com/clovaai/CRAFT-pytorch
+- [2019-CVPR] CRAFT: Character Region Awareness for Text Detection [`paper`](https://arxiv.org/abs/1904.01941) [`code`](https://github.com/clovaai/CRAFT-pytorch)
 - [2019-CVPR] Data Extraction from Charts via Single Deep Neural Network(*) [`paper`](https://arxiv.org/abs/1906.11906?from=singlemessage&isappinstalled=0)
 - [2019-CVPR] E2E-MLT - an Unconstrained End-to-End Method for Multi-Language Scene Text [`paper`](https://arxiv.org/abs/1801.09919)
 - [2019-arXiv] FACLSTM: ConvLSTM with Focused Attention for Scene Text Recognition [`paper`](https://arxiv.org/abs/1904.09405)

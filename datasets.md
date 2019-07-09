@@ -40,6 +40,10 @@ a list of datasets dedicated to the Face Recognition & Detection , OCR , Objecti
 - [`CrowdPose`]	CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark [`Pose Estimation`](https://drive.google.com/file/d/1VprytECcLtU4tKP32SYi_7oDRbw7yUTL/view?usp=sharing)
 - [`face`] https://github.com/becauseofAI/HelloFace 
 - [`CASIA-SURF`] A Dataset and Benchmark for Large-scale Multi-modal Face Anti-spoofing [`Anti-spoofing`](https://sites.google.com/qq.com/chalearnfacespoofingattackdete)
+- [`VggFace`] VGGFace2: A dataset for recognising faces across pose and age [`Face-Recognition`](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)
+- [`FEI`]
+- [`LFW`] [`Face Detection`](https://www.cics.umass.edu/lfw/lfw.tgz)
+- [`WFLW`] It contains 10000 faces (7500 for training and 2500 for testing) with 98 fully manual annotated landmarks [`Face Alignment`](https://wywu.github.io/projects/LAB/WFLW.html)
 
 
 
